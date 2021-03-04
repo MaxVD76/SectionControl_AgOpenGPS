@@ -7,3 +7,9 @@ Le logiciel (Ag Open GPS, installé sur une tablette exécutant Windows 10) reç
 
 
 ![Dessin_général](https://user-images.githubusercontent.com/65913566/109956758-56779f80-7ce4-11eb-8312-71eaa2b2a2a8.png)
+
+A l’heure actuelle le logiciel supporte 16 tronçons, mais le code lui n’en supporte que 8.
+Vous trouverez dans le fichier « Boitier » la liste des pièces nécessaires à la réalisation du boitier comme le mien, ainsi que les schémas de branchement. Un tuto vidéo explique les étapes de réalisation du boitier : bientôt disponible. 
+Dans le fichier « Code » vous trouverez le code Arduino (V0.9) à téléverser sur votre contrôleur ainsi qu’un tableur détaillant le format de communication des données entre le logiciel et le contrôleur (si vous souhaitez modifier le code). Un tuto vidéo explique le fonctionnement du code : bientôt disponible.
+ 
+
