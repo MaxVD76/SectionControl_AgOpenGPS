@@ -14,4 +14,4 @@ A l’heure actuelle le logiciel supporte 16 tronçons, mais le code lui n’en 
 
 * Dans le fichier « Code » vous trouverez le code Arduino (V0.9) à téléverser sur votre contrôleur ainsi qu’un tableur détaillant le format de communication des données entre le logiciel et le contrôleur (si vous souhaitez modifier le code). Un tuto vidéo explique le fonctionnement du code : bientôt disponible.
  
-
+Remarque : des versions futures du code prendront en compte l'utilisation du boitier sans le logiciel et intégreront la gestion de 16 tronçons. 
