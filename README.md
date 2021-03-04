@@ -1,4 +1,4 @@
-# SectionControl_AgOpenGPS
+# Coupure de tronçon (Ag Open GPS)
 Solution complète de coupure de tronçon utilisant le logiciel libre Ag Open GPS et un contrôleur Arduino. Cette solution permet de contrôler des tronçons automatiquement (via positionnement GPS) et manuellement sur pulvérisateur, semoir à distribution électrique ou bineuse (relevage rang à rang). Le coût est dérisoire (environ 300€ de matériel électronique + une tablette Windows) et le système s'adapte facilement sur toutes les machines. 
 
 Comment ça fonctionne ?
