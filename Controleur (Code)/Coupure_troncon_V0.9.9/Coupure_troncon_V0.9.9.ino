@@ -44,7 +44,7 @@
 
   byte emptyR=0, relayHiR=0, relayLoR=0, SectSWOffFromAOGHi = 0, SectSWOffFromAOGLo = 0, SectMainFromAOG = 0;  //bytes storing data received from PGN 32 761
 
-  byte mainon=0b00000000, mainoff=0b00000000, sect=0b00000000; //on or off all the boom
+  byte mainon=0, mainoff=0, sect=0; //on or off all the boom
  
   //Raise and lower as D4 and D3
   #define RAISE 4
@@ -59,10 +59,10 @@ const int  button4Pin = A3;
 const int  button5Pin = A4;
 const int  button6Pin = A5;
 const int  button7Pin = 2;
-const int  button8Pin = 3;
-const int  buttonmodePin = 5;// mode mean auto/manual (physical button which switch the software button)
+const int  button8Pin = 2;
+const int  buttonmodePin = 3;// mode mean auto/manual (physical button which switch the software button)
 const int  buttonboomoffPin = 4;
-const int  buttonboomonPin = 3;
+const int  buttonboomonPin = 5;
 
 const int sect1Pin = 6;
 const int sect2Pin = 7;
@@ -848,7 +848,6 @@ void loop()
           
        }                    
     }
-  } 
   if(bitRead(sect, 6)){
       bitClear(mainon,6);
       if(bitRead(mainoff, 6)){
@@ -893,7 +892,8 @@ void loop()
           
        }                    
     }
-}
+  }
+ }
 
   void Buttons2(void)
  {
