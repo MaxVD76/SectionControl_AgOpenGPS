@@ -14,5 +14,7 @@ A l’heure actuelle le logiciel supporte 16 tronçons, mais le code lui n’en 
 * Vous trouverez dans le fichier « Boitier » la liste des pièces nécessaires à la réalisation du boitier comme le mien, ainsi que les schémas de branchement. Un tuto vidéo explique les étapes de réalisation du boitier : bientôt disponible. L'idéal est de réutiliser votre boitier de commande du pulvérisateur existant (attention il faut des intérupteurs momentannés ou des boutons).
 
 * Dans le fichier « Code » vous trouverez le code Arduino (V0.9) à téléverser sur votre contrôleur ainsi qu’un tableur détaillant le format de communication des données entre le logiciel et le contrôleur (si vous souhaitez modifier le code). Un tuto vidéo explique le fonctionnement du code : bientôt disponible.
+
+Suie à un dysfonctionnement, le code a été corrigé le 23/03/2021. Les 8 tronçons sont maintenant fonctionnels. 
  
 Remarque : un version future intégrera la gestion de 16 tronçons. 
